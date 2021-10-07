@@ -1,6 +1,6 @@
 package comp.comp152;
 
-public class SalariedEmployee extends Emplyee{
+public class SalariedEmployee extends Employee{
     private double yearlySalary;
 
     public SalariedEmployee(double Salary){
