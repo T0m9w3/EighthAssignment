@@ -8,4 +8,8 @@ public abstract class Employee{
     public void withholdTaxes(){
         System.out.println("Now withholding " + calculateBiWeeklyPay()*.2 + " in taxes");
     }
+
+    public final void fileW2Forms(){
+        System.out.println("Now Generating the W-2 forms for this Employee");
+    }
 }
